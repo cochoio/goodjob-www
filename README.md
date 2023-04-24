@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GoodJob(참잘했어요) - 스티커 칭찬 챌린지
 
-## Getting Started
+가족, 친구와 함께 즐기는 스티커를 활용한 칭찬 챌린지 애플리케이션
 
-First, run the development server:
+## 앱 다운로드
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+|                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                        |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <a href='https://play.google.com/store/apps/details?id=io.cocho.goodjob.goodjobapp&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='다운로드하기 Google Play' width="200" src='https://play.google.com/intl/en_us/badges/static/images/badges/ko_badge_web_generic.png'/></a> | <a href='https://apps.apple.com/kr/app/goodjob-%EC%B0%B8%EC%9E%98%ED%96%88%EC%96%B4%EC%9A%94-%EC%8A%A4%ED%8B%B0%EC%BB%A4-%EC%B9%AD%EC%B0%AC-%EC%B1%8C%EB%A6%B0%EC%A7%80/id6446052088'><img alt='다운로드하기 App Store' width="200" src='https://github.com/cochoio/goodjob-introduction/raw/main/images/app_store_download.svg'/></a> |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+스티커를 활용한 칭찬 소셜 챌린지 애플리케이션 굿잡!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+어릴 적 착한 일을 하면 선생님이나 부모님이 포도알 스티커를 붙여주셨던 기억이 있으신가요?
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+그 당시 스티커는 좋은 일을 하게 해주는 원동력이 되어주곤 했었죠 :)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+이런 동기부여(motivation)를 ‘굿잡’ 을 통해 여러사람과 공유 할 수 있도록 만든 애플리케이션입니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+굿잡은 스티커를 활용하여 친구와 가족을 칭찬하고 공유할 수 있으며, 목표달성 및 습관형성을 위한 도움을 줄거예요.
 
-## Learn More
+여러분은 굿잡을 통해 삶에 선하고 긍정적인 영향력을 받을 수 있어요!
 
-To learn more about Next.js, take a look at the following resources:
+굿잡은 여러분의 선한 행동과 목표를 항상 응원해요!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+오늘도 참 잘했어요 :)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 굿잡 앱에서 다음과 같은 기능을 제공해요!
 
-## Deploy on Vercel
+- 소셜로그인으로 간편하게 로그인하세요!
+- 나만의 칭찬보드를 만드세요!
+- 목표달성시 보상을 미리 지정 해보세요!
+- 내 칭찬보드를 주변 지인과 함께 공유하세요!
+- 굿잡의 귀여운 스티커로 칭찬해주세요!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 앱에서 제공하는 이미지
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+|                                                                                   |                                                                                   |
+| :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+| ![](https://github.com/cochoio/goodjob-introduction/raw/main/images/image_15.png) | ![](https://github.com/cochoio/goodjob-introduction/raw/main/images/image_16.png) |
+
+|                                                                                   |                                                                                   |                                                                                   |
+| :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+| ![](https://github.com/cochoio/goodjob-introduction/raw/main/images/image_17.png) | ![](https://github.com/cochoio/goodjob-introduction/raw/main/images/image_18.png) | ![](https://github.com/cochoio/goodjob-introduction/raw/main/images/image_19.png) |
