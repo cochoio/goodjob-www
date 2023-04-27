@@ -133,6 +133,7 @@ export const HeaderWrapper = styled.div`
 
 export const FooterWrapper = styled.div`
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #fbfbfb;
   padding: 15px;
@@ -162,5 +163,22 @@ export const FooterWrapper = styled.div`
   .download-icon {
     margin: 10px;
     text-align: right;
+  }
+
+  /* Tablets Size */
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    .text-box {
+      justify-content: center;
+    }
+
+    div:first-child {
+      margin-bottom: 10px;
+    }
   }
 `;

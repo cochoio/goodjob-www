@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer>
       <FooterWrapper>
-        <div style={{ flex: 7 }}>
+        <div>
           <p style={{ fontWeight: "bold", fontSize: 18 }}>COCHO</p>
           <div className="text-container">
             <div className="text-box">
@@ -26,7 +26,7 @@ export default function Footer() {
             rights reserved.
           </p>
         </div>
-        <div style={{ flex: 1 }}>
+        <div>
           <a
             href="https://play.google.com/store/apps/details?id=io.cocho.goodjob.goodjobapp&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1/?utm_source=googleplay&utm_medium=referral&utm_campaign=GoodJob"
             target="_blank"
