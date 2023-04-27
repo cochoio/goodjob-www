@@ -1,5 +1,6 @@
 import { GlobalStyle } from "@/styles/GlobalStyle";
 import React from "react";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 type Parameter = {
@@ -12,6 +13,7 @@ export default function Layout({ children }: Parameter) {
       <GlobalStyle />
       <Navbar />
       <main>{children}</main>
+      <Footer />
     </>
   );
 }

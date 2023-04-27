@@ -130,3 +130,37 @@ export const HeaderWrapper = styled.div`
     }
   }
 `;
+
+export const FooterWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  background-color: #fbfbfb;
+  padding: 15px;
+
+  .text-container {
+    margin: 15px 0;
+  }
+
+  .text-box {
+    display: flex;
+  }
+
+  .text {
+    margin: 1px 0;
+  }
+
+  p {
+    color: #515151;
+    font-size: 15px;
+  }
+
+  .text:nth-child(odd)::after {
+    content: "|";
+    margin: 0 20px;
+  }
+
+  .download-icon {
+    margin: 10px;
+    text-align: right;
+  }
+`;
