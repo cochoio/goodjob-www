@@ -117,7 +117,7 @@ export const HeaderWrapper = styled.div`
   /* Small Phone Size */
   @media screen and (max-width: 480px) {
     .bold-text {
-      font-size: 32px;
+      font-size: 28px;
     }
 
     .text {
