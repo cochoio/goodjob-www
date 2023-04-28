@@ -16,11 +16,9 @@ export default function Footer() {
             </div>
             <div className="text-box">
               <p className="text">대표자(성명) : 이지훈</p>
-              <p className="text">
-                <a className="text" href="mailto:support@cocho.io">
-                  support@cocho.io
-                </a>
-              </p>
+              <a className="text" href="mailto:support@cocho.io">
+                support@cocho.io
+              </a>
             </div>
           </div>
           <p>
