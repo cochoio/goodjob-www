@@ -2,7 +2,7 @@ import { CalendarWrapper } from "@/styles/Wrapper";
 import Image from "next/image";
 import React from "react";
 
-export default function Calendar() {
+export default function Second() {
   return (
     <CalendarWrapper>
       <div className="image-container">

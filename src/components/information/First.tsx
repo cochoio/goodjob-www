@@ -2,7 +2,7 @@ import { BoardWrapper } from "@/styles/Wrapper";
 import Image from "next/image";
 import React from "react";
 
-export default function Board() {
+export default function First() {
   return (
     <BoardWrapper>
       <div className="image-container">
