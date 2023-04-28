@@ -11,11 +11,14 @@ export const HeaderWrapper = styled.div`
   }
 
   .text-container {
-    padding: 30px 10% 0 10%;
+    padding: 0 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+    max-width: 1580px;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .bold-text-container {
@@ -200,6 +203,8 @@ export const FooterWrapper = styled.div`
 export const FirstdWrapper = styled.div`
   height: 600px;
   overflow: hidden;
+  margin: 0 auto;
+  max-width: 1580px;
 
   .image-container {
     position: relative;
@@ -381,6 +386,8 @@ export const ThirdWrapper = styled.div`
   width: 100%;
   display: flex;
   overflow: hidden;
+  max-width: 1580px;
+  margin: 0 auto;
 
   .content-container {
     display: block;
@@ -467,6 +474,8 @@ export const LastWrapper = styled.div`
   text-align: center;
   justify-content: center;
   overflow: hidden;
+  max-width: 1580px;
+  margin: 0 auto;
 
   .image-container {
     flex: 1;
