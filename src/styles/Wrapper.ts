@@ -356,12 +356,22 @@ export const SecondrWrapper = styled.div`
     .text-container {
       flex: none;
       justify-content: center;
-      /* margin: 0 auto; */
       transform: translateY(175px);
     }
 
     p {
       font-size: 33px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .calendar-image {
+      width: 570px;
+      height: auto;
+    }
+
+    p {
+      font-size: 25px;
     }
   }
 `;
