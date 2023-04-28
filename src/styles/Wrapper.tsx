@@ -263,7 +263,7 @@ export const BoardWrapper = styled.div`
       }
 
       p {
-        font-size: 28px;
+        font-size: 25px;
       }
     }
   }
