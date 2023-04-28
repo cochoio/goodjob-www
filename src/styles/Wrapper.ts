@@ -459,3 +459,67 @@ export const ThirdWrapper = styled.div`
     }
   }
 `;
+
+export const LastWrapper = styled.div`
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .image-container {
+    flex: 1;
+  }
+
+  .text-container {
+    flex: 1.5;
+  }
+
+  p {
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+  }
+
+  .download-image {
+    margin: 5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    .image-container,
+    .text-container {
+      flex: none;
+    }
+
+    p {
+      font-size: 33px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    p {
+      font-size: 25px;
+    }
+
+    .main-image {
+      width: 250px;
+      height: auto;
+    }
+
+    .download-container {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+
+    .download-image {
+      width: 180px;
+      height: auto;
+    }
+  }
+`;

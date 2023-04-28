@@ -4,6 +4,7 @@ import Head from "next/head";
 import First from "@/components/information/First";
 import Second from "@/components/information/Second";
 import Third from "@/components/information/Third";
+import Last from "@/components/information/Last";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <First />
       <Second />
       <Third />
+      <Last />
       <Footer />
     </>
   );
