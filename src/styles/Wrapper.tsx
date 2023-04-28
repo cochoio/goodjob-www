@@ -180,6 +180,20 @@ export const FooterWrapper = styled.div`
     div:first-child {
       margin-bottom: 10px;
     }
+
+    @media screen and (max-width: 480px) {
+      .text:nth-child(odd)::after {
+        content: none;
+      }
+
+      .text-box {
+        flex-direction: column;
+      }
+
+      .text:nth-child(odd) {
+        margin-bottom: 10px;
+      }
+    }
   }
 `;
 
