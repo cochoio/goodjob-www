@@ -186,7 +186,6 @@ export const FooterWrapper = styled.div`
 export const BoardWrapper = styled.div`
   height: 600px;
   overflow: hidden;
-  /* position: relative; */
 
   .image-container {
     position: relative;
@@ -194,6 +193,7 @@ export const BoardWrapper = styled.div`
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin: 0 auto;
   }
 
   .board-image {
@@ -210,17 +210,16 @@ export const BoardWrapper = styled.div`
 
   .text-left,
   .text-right {
-    /* justify-content: center; */
     text-align: center;
     padding: 0 30px;
   }
 
   .text-left {
-    transform: translateY(-80px);
+    transform: translateY(30px);
   }
 
   .text-right {
-    transform: translateY(80px);
+    transform: translateY(150px);
   }
 
   p {
@@ -228,5 +227,44 @@ export const BoardWrapper = styled.div`
     font-weight: 700;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
       1px 1px 0 #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .board-image {
+      width: auto;
+      height: 800px;
+    }
+
+    .text-container {
+      flex-direction: column;
+    }
+
+    .text-left,
+    .text-right {
+      transform: none;
+    }
+
+    .text-left {
+      transform: translateY(-150px);
+    }
+
+    .text-right {
+      transform: translateY(80px);
+    }
+
+    p {
+      font-size: 33px;
+    }
+
+    @media screen and (max-width: 480px) {
+      .board-image {
+        width: auto;
+        height: 700px;
+      }
+
+      p {
+        font-size: 28px;
+      }
+    }
   }
 `;
