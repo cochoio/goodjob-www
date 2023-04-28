@@ -1,3 +1,4 @@
+import Board from "@/components/information/Board";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
@@ -15,6 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
+      <Board />
+      <Footer />
     </>
   );
 }

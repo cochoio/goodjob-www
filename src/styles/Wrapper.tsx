@@ -182,3 +182,51 @@ export const FooterWrapper = styled.div`
     }
   }
 `;
+
+export const BoardWrapper = styled.div`
+  height: 600px;
+  overflow: hidden;
+  /* position: relative; */
+
+  .image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .board-image {
+    transform: translateY(150px);
+    z-index: -1;
+  }
+
+  .text-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .text-left,
+  .text-right {
+    /* justify-content: center; */
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .text-left {
+    transform: translateY(-80px);
+  }
+
+  .text-right {
+    transform: translateY(80px);
+  }
+
+  p {
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+  }
+`;
