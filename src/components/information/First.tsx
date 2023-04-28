@@ -1,10 +1,10 @@
-import { BoardWrapper } from "@/styles/Wrapper";
+import { FirstdWrapper } from "@/styles/Wrapper";
 import Image from "next/image";
 import React from "react";
 
 export default function First() {
   return (
-    <BoardWrapper>
+    <FirstdWrapper>
       <div className="image-container">
         <Image
           className="board-image"
@@ -29,6 +29,6 @@ export default function First() {
           </div>
         </div>
       </div>
-    </BoardWrapper>
+    </FirstdWrapper>
   );
 }

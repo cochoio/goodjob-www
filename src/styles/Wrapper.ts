@@ -197,7 +197,7 @@ export const FooterWrapper = styled.div`
   }
 `;
 
-export const BoardWrapper = styled.div`
+export const FirstdWrapper = styled.div`
   height: 600px;
   overflow: hidden;
 
@@ -283,7 +283,7 @@ export const BoardWrapper = styled.div`
   }
 `;
 
-export const CalendarWrapper = styled.div`
+export const SecondrWrapper = styled.div`
   height: 600px;
   overflow: hidden;
   display: flex;

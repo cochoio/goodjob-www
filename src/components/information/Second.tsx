@@ -1,10 +1,10 @@
-import { CalendarWrapper } from "@/styles/Wrapper";
+import { SecondrWrapper } from "@/styles/Wrapper";
 import Image from "next/image";
 import React from "react";
 
 export default function Second() {
   return (
-    <CalendarWrapper>
+    <SecondrWrapper>
       <div className="image-container">
         <Image
           className="calendar-image"
@@ -30,6 +30,6 @@ export default function Second() {
           다양한 챌린지를 도전해보세요!
         </p>
       </div>
-    </CalendarWrapper>
+    </SecondrWrapper>
   );
 }

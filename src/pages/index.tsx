@@ -1,8 +1,8 @@
-import Board from "@/components/information/Board";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
-import Calendar from "@/components/information/Calendar";
+import First from "@/components/information/First";
+import Second from "@/components/information/Second";
 
 export default function Home() {
   return (
@@ -17,8 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
-      <Board />
-      <Calendar />
+      <First />
+      <Second />
       <Footer />
     </>
   );
