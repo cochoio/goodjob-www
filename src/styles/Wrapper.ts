@@ -282,3 +282,86 @@ export const BoardWrapper = styled.div`
     }
   }
 `;
+
+export const CalendarWrapper = styled.div`
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+  .image-container {
+    position: relative;
+    align-items: center;
+    text-align: left;
+    flex: 1;
+    z-index: -1;
+  }
+
+  .calendar-image {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    z-index: -1;
+  }
+
+  .calendar-image:last-child {
+    transform: translate(140px, 70px);
+  }
+
+  .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex: 1;
+  }
+
+  p {
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .text-container {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    text-align: center;
+
+    .image-container {
+      /* display: flex; */
+      justify-content: center;
+      text-align: center;
+      flex: none;
+    }
+
+    .calendar-image {
+      width: 600px;
+      height: auto;
+    }
+
+    .calendar-image:first-child {
+    }
+
+    .calendar-image:last-child {
+    }
+
+    .text-container {
+      flex: none;
+      justify-content: center;
+      /* margin: 0 auto; */
+      transform: translateY(175px);
+    }
+
+    p {
+      font-size: 33px;
+    }
+  }
+`;

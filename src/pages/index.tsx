@@ -2,6 +2,7 @@ import Board from "@/components/information/Board";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
+import Calendar from "@/components/information/Calendar";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Header />
       <Board />
+      <Calendar />
       <Footer />
     </>
   );
