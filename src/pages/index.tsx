@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Head from "next/head";
 import First from "@/components/information/First";
 import Second from "@/components/information/Second";
+import Third from "@/components/information/Third";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Header />
       <First />
       <Second />
+      <Third />
       <Footer />
     </>
   );
