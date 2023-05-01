@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderWrapper = styled.div`
   height: 100vh;
   min-height: 600px;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
 
   .background-image {
@@ -430,7 +430,7 @@ export const ThirdWrapper = styled.div`
       display: flex;
       flex-direction: column;
       margin: 0 auto;
-      width: 100vw;
+      width: 100%;
     }
 
     .content-container:last-child {
