@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
   height: 100vh;
+  min-height: 600px;
   width: 100vw;
   overflow: hidden;
 
@@ -469,6 +470,7 @@ export const ThirdWrapper = styled.div`
 
 export const LastWrapper = styled.div`
   height: 100vh;
+  min-height: 600px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -498,6 +500,7 @@ export const LastWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    min-height: 1000px;
 
     .image-container,
     .text-container {
